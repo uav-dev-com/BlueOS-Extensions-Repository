@@ -14,7 +14,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.0 for extension uav-dev.sonarremote, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/uavdev/sonarremote/manifests/1.0.0: TOOMANYREQUESTS - You have reached your pull rate limit as 'uavdev': dckr_jti_v6fmHoGHvOhGkdnfZ_Tqjg0cbdI=. You may increase the limit by upgrading. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 1.0.0 for extension uav-dev.sonarremote, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/uavdev/sonarremote/manifests/1.0.0: TOOMANYREQUESTS - You have reached your pull rate limit as 'uavdev': dckr_jti_RdUgjlw_N01yCxp2uO8FTm8efrM=. You may increase the limit by upgrading. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             }
         ]
