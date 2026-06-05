@@ -1,6 +1,0 @@
-{
-    "name": "Example 2",
-    "website": "https://github.com/Williangalvani/BlueOS-examples/",
-    "docker": "williangalvani/blueos-example2",
-    "description": "Static HTML plus MAVLink data"
-}

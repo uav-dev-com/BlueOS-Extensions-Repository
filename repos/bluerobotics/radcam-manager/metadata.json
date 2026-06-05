@@ -1,6 +1,0 @@
-{
-    "name": "RadCam Manager",
-    "website": "https://github.com/bluerobotics/radcam-manager",
-    "docker": "bluerobotics/blueos-radcam-manager",
-    "description": "RadCam's official management interface"
-}

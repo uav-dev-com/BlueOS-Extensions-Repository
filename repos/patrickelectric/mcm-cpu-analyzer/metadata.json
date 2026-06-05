@@ -1,6 +1,0 @@
-{
-    "name": "MCM CPU Analyzer",
-    "website": "https://github.com/patrickelectric/blueos-mavlink-camera-manager-analyzer",
-    "docker": "patrickelectric/blueos-mcm-analyzer",
-    "description": "Analyzer for the MAVLink-Camera-Manager"
-}
