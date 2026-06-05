@@ -8,6 +8,59 @@
         "extension_logo": "https://uav-dev-com.github.io/BlueOS-Extensions-Repository/repos/uav-dev/sonarremote/extension_logo.png",
         "company_logo": "https://uav-dev-com.github.io/BlueOS-Extensions-Repository/repos/uav-dev/company_logo.png",
         "versions": {
+            "1.0.1": {
+                "identifier": "99fa9c51-3a96-509b-a803-e345a84950ed",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 308333526,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6c74998f0f9b1d9864767b4246ef424aa2c3bdc711764b1ebecc3999a654adf3"
+                    },
+                    {
+                        "expanded_size": 265853329,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7c2c74b2d58abb161826a9b35f24f8ff6bccc8e91698a89d74a0eaac3b09a292"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mirko Denecke",
+                        "email": "info@uav-dev.com"
+                    }
+                ],
+                "filter_tags": [
+                    "navigation",
+                    "marine",
+                    "remote-control",
+                    "mfd"
+                ],
+                "extra_links": {},
+                "tag": "1.0.1",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": {
+                    "about": "UAV and ROV development",
+                    "name": "UAV-DEV GmbH",
+                    "email": "info@uav-dev.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "1.0.0": {
                 "identifier": "251d8365-25bd-542b-848d-f621ca72cbd5",
                 "type": "other",
@@ -72,86 +125,8 @@
             }
         },
         "repo_info": {
-            "downloads": 100,
-            "last_updated": "2026-06-05T12:24:12.131525Z",
-            "date_registered": "2026-06-05T07:50:11.285274Z"
-        }
-    },
-    {
-        "identifier": "uavdev.sonarremote",
-        "name": "SonarRemote",
-        "website": "https://github.com/uav-dev-com",
-        "docker": "uavdev/sonarremote",
-        "description": "Remote control and screen mirror for Lowrance / Simrad / B&G multifunction displays",
-        "extension_logo": "https://uav-dev-com.github.io/BlueOS-Extensions-Repository/repos/uavdev/sonarremote/extension_logo.png",
-        "company_logo": "https://uav-dev-com.github.io/BlueOS-Extensions-Repository/repos/uavdev/company_logo.png",
-        "versions": {
-            "1.0.0": {
-                "identifier": "da2daa8c-0e8c-5bfd-a978-664e07957d3c",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 308333337,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0ed8fccbaf57a546b4d1dde232ae9b003037876c79d50a447d041fdc177b90d9"
-                    },
-                    {
-                        "expanded_size": 265853142,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f621e90685d6d8873709fbe78db338b1cf4849e803d28953c734ff855e7b3db6"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mirko Denecke",
-                        "email": "info@uav-dev.com"
-                    }
-                ],
-                "filter_tags": [
-                    "navigation",
-                    "marine",
-                    "remote-control",
-                    "mfd"
-                ],
-                "extra_links": {},
-                "tag": "1.0.0",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "UAV and ROV development",
-                    "name": "UAV-DEV GmbH",
-                    "email": "info@uav-dev.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "5000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "5000/tcp": [
-                                {
-                                    "HostPort": "5000"
-                                }
-                            ]
-                        }
-                    }
-                }
-            }
-        },
-        "repo_info": {
-            "downloads": 100,
-            "last_updated": "2026-06-05T12:24:12.131525Z",
+            "downloads": 120,
+            "last_updated": "2026-06-05T12:56:38.116724Z",
             "date_registered": "2026-06-05T07:50:11.285274Z"
         }
     }

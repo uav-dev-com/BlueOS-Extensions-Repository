@@ -1,6 +1,0 @@
-{
-    "name": "SonarRemote",
-    "website": "https://github.com/uav-dev-com",
-    "docker": "uavdev/sonarremote",
-    "description": "Remote control and screen mirror for Lowrance / Simrad / B&G multifunction displays"
-}
