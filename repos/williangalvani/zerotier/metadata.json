@@ -1,6 +1,0 @@
-{
-    "name": "ZeroTier",
-    "website": "https://github.com/BlueOS-Community/ZeroTierOne",
-    "docker": "williangalvani/zerotier",
-    "description": "Join a virtual network to operate your vehicle from anywhere"
-}
