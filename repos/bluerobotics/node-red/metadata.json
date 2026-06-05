@@ -1,6 +1,0 @@
-{
-    "name": "Node-RED",
-    "website": "https://github.com/BlueOS-Community/blueos-node-red",
-    "docker": "patrickelectric/blueos-node-red",
-    "description": "Low-code development tool for custom functionality"
-}

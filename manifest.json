@@ -1,332 +1,69 @@
 [
     {
-        "identifier": "deepwaterexploration.dwe_os_2",
-        "name": "DWE OS 2.0",
-        "website": "https://github.com/DeepwaterExploration/DWE_OS_2",
-        "docker": "deepwaterexploration/dwe_os_2",
-        "description": "Web-based driver and software interface for DWE.ai cameras",
-        "extension_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/deepwaterexploration/dwe_os_2/extension_logo.png",
-        "company_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/deepwaterexploration/company_logo.png",
+        "identifier": "uav-dev.sonarremote",
+        "name": "SonarRemote",
+        "website": "https://github.com/uav-dev-com/sonarremote",
+        "docker": "uavdev/sonarremote",
+        "description": "Remote Sonar Client",
+        "extension_logo": "https://uav-dev-com.github.io/BlueOS-Extensions-Repository/repos/uav-dev/sonarremote/extension_logo.png",
+        "company_logo": "https://uav-dev-com.github.io/BlueOS-Extensions-Repository/repos/uav-dev/company_logo.png",
         "versions": {
-            "v0.4.3-blueos": {
-                "identifier": "27502449-4909-5055-ae73-923014149e95",
-                "type": "device-integration",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 376564891,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:31868a37aea7d6ebcac625644afaaa5c6dd67ea28575818b2d9658987093fc83"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Brandon Stevens",
-                        "email": "support@dwe.ai"
-                    }
-                ],
-                "filter_tags": [
-                    "cameras",
-                    "dwe-ai",
-                    "exporehd",
-                    "stellarhd",
-                    "deepwater-exploration"
-                ],
-                "extra_links": {},
-                "tag": "v0.4.3-blueos",
-                "docs": null,
-                "readme": "<h1>DWE_OS 2.0</h1>\n<p>DWE_OS is an optional piece of software \u2014 designed to run on underwater systems \u2014 that allows for extended functionality of <a href=\"https://dwe.ai/collections/all\">DeepWater Exploration cameras</a>. It provides out-of-the-box camera streaming and customization features, minimizing the development time typically required for subsea camera integration.</p>\n<p><img alt=\"DWE_OS\" src=\"https://mintlify.s3-us-west-1.amazonaws.com/deepwaterexplorationinc/software/images/dwe_os_2/dwe-os-2-demo-page.png\"/></p>\n<p>For more information, please see our <a href=\"https://docs.dwe.ai/software/dwe-os/dwe-os-2\">documentation site</a>.</p>",
-                "support": "https://dwe.ai/pages/contact",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "DeepWater Exploration",
-                    "email": "support@dwe.ai"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/sys/class/video4linux:/sys/class/video4linux",
-                            "/usr/blueos/userdata/dwe_os_2:/settings",
-                            "/dev:/dev"
-                        ],
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            }
-        },
-        "repo_info": {
-            "downloads": 12617,
-            "last_updated": "2026-06-04T21:04:02.975406Z",
-            "date_registered": "2024-10-28T21:23:12.958451Z"
-        }
-    },
-    {
-        "identifier": "bluerobotics.jupyter",
-        "name": "Jupyter",
-        "website": "https://github.com/BlueOS-Community/blueos-jupyter",
-        "docker": "patrickelectric/blueos-jupyter",
-        "description": "Code in Python directly in BlueOS",
-        "extension_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/bluerobotics/jupyter/extension_logo.png",
-        "company_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
-        "versions": {
-            "0.1.0": {
-                "identifier": "0fe22234-421f-5549-86e1-44515ecc0c37",
+            "1.0.0": {
+                "identifier": "251d8365-25bd-542b-848d-f621ca72cbd5",
                 "type": "other",
                 "website": null,
                 "images": [
                     {
-                        "expanded_size": 946708030,
+                        "expanded_size": 308331815,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:7fbecadd64e1b484f67a6cafda92c3f4b9630e277d83a4288196ebbf01af336f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
+                        "digest": "sha256:a4fb0f6f398f9bf18cd73f5565af708988ab0856051573c08248baf57af426f8"
                     },
                     {
-                        "name": "Raul Victor Trombin",
-                        "email": "raulvtrombin@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "python",
-                    "ide",
-                    "development"
-                ],
-                "extra_links": {},
-                "tag": "0.1.0",
-                "docs": null,
-                "readme": "<h1>blueos-jupyter</h1>\n<p>Extension to start coding with python examples and create projects.</p>\n<p>To install your own libraries, use: <code>pip install --user</code>.</p>\n<p>Home directory (<code>/root/</code>) will be persistent besides pip local holder for user libraries.</p>\n<p>Libraries installed:\n- bluerobotics-ping\n- bluerobotics-navigator\n- plotly\n- pymavlink</p>",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/extensions/jupyter/root:/root:rw",
-                            "/dev:/dev:rw"
-                        ],
-                        "NetworkMode": "host"
-                    }
-                }
-            }
-        },
-        "repo_info": {
-            "downloads": 11496,
-            "last_updated": "2024-11-02T19:51:27.122486Z",
-            "date_registered": "2023-09-20T20:30:01.66808Z"
-        }
-    },
-    {
-        "identifier": "williangalvani.oakd",
-        "name": "Oak-D Video Streams",
-        "website": "https://github.com/Williangalvani/Oakd-extension",
-        "docker": "williangalvani/oakd-extension",
-        "description": "Exposes Oak-D streams into cockpit",
-        "extension_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/williangalvani/oakd/extension_logo.png",
-        "company_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
-        "versions": {
-            "v1.0.1-heta.1": {
-                "identifier": "4d8e6434-af76-53c3-b91c-111aff57d0da",
-                "type": "device-integration",
-                "website": "https://github.com/Williangalvani/Oakd-extension/",
-                "images": [
-                    {
-                        "expanded_size": 1150339016,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:55eb2f8e8d25a693dc2c53d52b082a29b5c6bf08c9d64d22a5a5c5ce8c93a49e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.1-heta.1",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://github.com/Williangalvani/Oakd-extension/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev/bus/usb:/dev/bus/usb"
-                        ],
-                        "DeviceCgroupRules": [
-                            "c 189:* rmw"
-                        ]
-                    }
-                }
-            },
-            "v1.0.0": {
-                "identifier": "267435ea-f9fd-510b-b863-250a622957f2",
-                "type": "device-integration",
-                "website": "https://github.com/Williangalvani/Oakd-extension/",
-                "images": [
-                    {
-                        "expanded_size": 1150339194,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6da815487395a969ee4cd142ab7c55bf7b201032b433ae1e551af7380b75a042"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "<p>This extension exposes the Stereo Depth Disparity and RGB video from Oak-D cameras into RTSP streams that can be displayed in Cockpit.</p>",
-                "support": "https://github.com/Williangalvani/Oakd-extension/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev/bus/usb:/dev/bus/usb"
-                        ],
-                        "DeviceCgroupRules": [
-                            "c 189:* rmw"
-                        ]
-                    }
-                }
-            }
-        },
-        "repo_info": {
-            "downloads": 9480,
-            "last_updated": "2025-02-12T16:03:19.432988Z",
-            "date_registered": "2024-04-02T12:56:46.518809Z"
-        }
-    },
-    {
-        "identifier": "williangalvani.oakd vins",
-        "name": "Oak-D Visual Odometry",
-        "website": "https://github.com/Williangalvani/Blueos-oakd-vins",
-        "docker": "williangalvani/blueos-oakd-vins",
-        "description": "Visual Odometry using Oak-D cameras",
-        "extension_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/williangalvani/oakd vins/extension_logo.png",
-        "company_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
-        "versions": {
-            "v0.0.1": {
-                "identifier": "02ed3772-5ccd-5063-8e51-1254a8c9942c",
-                "type": "device-integration",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 1333348604,
+                        "expanded_size": 265851618,
                         "platform": {
                             "architecture": "arm64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:6bf37d9ecddc239c5e81438a5cc04823f1fe42634e3c4d59eee7be4a97e16a39"
+                        "digest": "sha256:8493478d84d67ef5fb0727ee846c5e4eb433d4924f0a6131c4ce3ea1b2f988bf"
                     }
                 ],
                 "authors": [
                     {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
+                        "name": "Mirko Denecke",
+                        "email": "info@uav-dev.com"
                     }
                 ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/williangalvani/Blueos-oakd-vins"
-                },
-                "tag": "v0.0.1",
+                "filter_tags": [
+                    "navigation",
+                    "marine",
+                    "remote-control",
+                    "mfd"
+                ],
+                "extra_links": {},
+                "tag": "1.0.0",
                 "docs": null,
-                "readme": "<h1>BlueOS Oak D VINS</h1>\n<p>This project implements Visual-Inertial Navigation System (VINS) using the Luxonis OAK-D camera for ArduPilot-based vehicles. It provides position and velocity estimates that can be used as a substitute for GPS, enabling position control modes like Loiter, PosHold, RTL, and Auto to work in GPS-denied environments.\nThis extension is based on the guide at <a href=\"https://ardupilot.org/copter/docs//common-vio-oak-d.html\">Ardupilot</a>) and the work by <a href=\"https://github.com/chobitsfan\">ChobitsFan</a>,\nBut replaces the mavlink proxy for mavlink2rest for integration into BlueOS</p>\n<h2>Hardware Requirements</h2>\n<ul>\n<li>Luxonis OAK-D or OAK-D Pro (OAK-D S2 should work but not tested yet)</li>\n<li>Raspberry Pi 4 or Raspberry Pi 5</li>\n<li>ArduPilot-compatible flight controller</li>\n</ul>\n<h2>Hardware Setup</h2>\n<ol>\n<li>Connect the OAK-D to one of the RPI's blue USB3 ports</li>\n</ol>\n<h2>ArduPilot Configuration</h2>\n<p>Configure your ArduPilot flight controller with these parameters:</p>\n<ul>\n<li><code>SERIAL1_PROTOCOL = 2</code> (MAVLink2)</li>\n<li><code>SERIAL1_BAUD = 1500</code> (1500000 baud)</li>\n<li><code>VISO_TYPE = 1</code></li>\n<li><code>VISO_DELAY_MS = 50</code></li>\n<li><code>EK3_SRC1_POSXY = 6</code> (ExternalNav)</li>\n<li><code>EK3_SRC1_VELXY = 6</code> (ExternalNav)</li>\n<li><code>EK3_SRC1_POSZ = 1</code> (Baro which is safer)</li>\n<li><code>EK3_SRC1_VELZ = 0</code> (can be set to 6 after successful flight test)</li>\n<li><code>EK3_SRC1_YAW = 6</code> (ExternalNav)</li>\n<li><code>COMPASS_USE = 0</code>, <code>COMPASS_USE2 = 0</code>, <code>COMPASS_USE3 = 0</code> (disable all compasses)</li>\n</ul>\n<h2>Flight Testing</h2>\n<p>For your first flight:</p>\n<ol>\n<li>Takeoff in Stabilize or Alt-Hold mode</li>\n<li>Verify vehicle stability</li>\n<li>Move the vehicle around and observe position tracking in Mission Planner</li>\n<li>Switch to Loiter mode (be ready to switch back to Stabilize/Alt-Hold if needed)</li>\n<li>Test position holding and movement at various speeds</li>\n<li>If everything works as expected, future flights can be armed and taken off in Loiter mode</li>\n</ol>\n<h2>Troubleshooting</h2>\n<ul>\n<li>Ensure the OAK-D is properly connected to a USB3 port</li>\n<li>Verify MAVLink communication between RPI and flight controller</li>\n<li>Check Zenoh router connectivity</li>\n<li>Monitor system logs for any error messages</li>\n</ul>",
+                "readme": null,
                 "support": null,
-                "requirements": "core >= 1.1",
+                "requirements": null,
                 "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
+                    "about": "UAV and ROV development",
+                    "name": "uav-dev",
+                    "email": "info@uav-dev.com"
                 },
                 "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/dev/bus/usb:/dev/bus/usb"
-                        ],
-                        "DeviceCgroupRules": [
-                            "c 189:* rmw"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
+                    "NetworkMode": "host"
                 }
             }
         },
         "repo_info": {
-            "downloads": 601,
-            "last_updated": "2025-06-13T02:53:50.603427Z",
-            "date_registered": "2025-06-13T02:53:50.53734Z"
+            "downloads": 53,
+            "last_updated": "2026-06-05T09:27:43.995429Z",
+            "date_registered": "2026-06-05T07:50:11.285274Z"
         }
     }
 ]
