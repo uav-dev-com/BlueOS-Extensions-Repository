@@ -22,13 +22,13 @@
     "final_docker_rate_limit": {
         "interval_seconds": 21600,
         "limit": 200,
-        "remaining": 0,
+        "remaining": 20,
         "source_ip": "191b8929-dbf1-4ea3-9dc2-0b77dd9643ae"
     },
     "start_docker_rate_limit": {
         "interval_seconds": 21600,
         "limit": 200,
-        "remaining": 1,
+        "remaining": 21,
         "source_ip": "191b8929-dbf1-4ea3-9dc2-0b77dd9643ae"
     }
 }

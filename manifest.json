@@ -20,7 +20,7 @@
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:a4fb0f6f398f9bf18cd73f5565af708988ab0856051573c08248baf57af426f8"
+                        "digest": "sha256:6391937282e7908fc500be69c1f19fabc2189b69d88db1067d78c8f61020c5b2"
                     },
                     {
                         "expanded_size": 265851618,
@@ -29,7 +29,7 @@
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:8493478d84d67ef5fb0727ee846c5e4eb433d4924f0a6131c4ce3ea1b2f988bf"
+                        "digest": "sha256:f161d894a4a4f78c54b8b451ee03ca9057de62e3cea560825af834f5aee2a85f"
                     }
                 ],
                 "authors": [
@@ -52,17 +52,28 @@
                 "requirements": null,
                 "company": {
                     "about": "UAV and ROV development",
-                    "name": "uav-dev",
+                    "name": "UAV-DEV GmbH",
                     "email": "info@uav-dev.com"
                 },
                 "permissions": {
-                    "NetworkMode": "host"
+                    "ExposedPorts": {
+                        "5000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "5000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         },
         "repo_info": {
-            "downloads": 53,
-            "last_updated": "2026-06-05T09:27:43.995429Z",
+            "downloads": 71,
+            "last_updated": "2026-06-05T11:59:25.106029Z",
             "date_registered": "2026-06-05T07:50:11.285274Z"
         }
     }
