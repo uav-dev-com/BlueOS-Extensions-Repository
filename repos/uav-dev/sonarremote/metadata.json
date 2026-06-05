@@ -1,0 +1,6 @@
+{
+    "name": "SonarRemote",
+    "website": "https://github.com/uav-dev-com/sonarremote",
+    "docker": "uavdev/sonarremote",
+    "description": "Remote Sonar Client"
+}
