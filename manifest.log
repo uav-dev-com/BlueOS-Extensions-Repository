@@ -21,18 +21,40 @@
                 "message": "Generated version entry 1.0.1 for extension uav-dev.sonarremote",
                 "status": "INFO"
             }
+        ],
+        "uavdev.sonarremote": [
+            {
+                "message": "Starting metadata processing for uavdev.sonarremote",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for uavdev.sonarremote",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension uavdev.sonarremote, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 1.0.0 for extension uavdev.sonarremote",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.1 for extension uavdev.sonarremote",
+                "status": "INFO"
+            }
         ]
     },
     "final_docker_rate_limit": {
         "interval_seconds": 21600,
         "limit": 200,
-        "remaining": 44,
+        "remaining": 196,
         "source_ip": "191b8929-dbf1-4ea3-9dc2-0b77dd9643ae"
     },
     "start_docker_rate_limit": {
         "interval_seconds": 21600,
         "limit": 200,
-        "remaining": 46,
+        "remaining": 200,
         "source_ip": "191b8929-dbf1-4ea3-9dc2-0b77dd9643ae"
     }
 }
