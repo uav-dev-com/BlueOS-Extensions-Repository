@@ -48,13 +48,13 @@
     "final_docker_rate_limit": {
         "interval_seconds": 3600,
         "limit": 200,
-        "remaining": 199,
+        "remaining": 198,
         "source_ip": "uavdev"
     },
     "start_docker_rate_limit": {
-        "interval_seconds": 21600,
+        "interval_seconds": 3600,
         "limit": 200,
         "remaining": 200,
-        "source_ip": "191b8929-dbf1-4ea3-9dc2-0b77dd9643ae"
+        "source_ip": "uavdev"
     }
 }
