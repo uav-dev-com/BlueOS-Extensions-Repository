@@ -14,11 +14,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.0.1 for extension uav-dev.sonarremote",
+                "message": "Generated version entry 1.0.0 for extension uav-dev.sonarremote",
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry 1.0.0 for extension uav-dev.sonarremote",
+                "message": "Generated version entry 1.0.1 for extension uav-dev.sonarremote",
                 "status": "INFO"
             }
         ],
@@ -48,7 +48,7 @@
     "final_docker_rate_limit": {
         "interval_seconds": 3600,
         "limit": 200,
-        "remaining": 198,
+        "remaining": 196,
         "source_ip": "uavdev"
     },
     "start_docker_rate_limit": {
