@@ -36,11 +36,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.0.1 for extension uavdev.sonarremote",
+                "message": "Generated version entry 1.0.0 for extension uavdev.sonarremote",
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry 1.0.0 for extension uavdev.sonarremote",
+                "message": "Generated version entry 1.0.1 for extension uavdev.sonarremote",
                 "status": "INFO"
             }
         ]
